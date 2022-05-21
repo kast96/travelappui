@@ -1,3 +1,18 @@
+import { ImageSourcePropType } from "react-native"
+
+export type discoverDataType = {
+  id: string
+  title: string
+  location: string
+  image: ImageSourcePropType
+  imageBig: ImageSourcePropType
+  description: string
+  liked: boolean
+  price: number
+  rating: number
+  duration: number
+}
+
 const discoverData = [
   {
     id: 'discover-1',
@@ -25,6 +40,6 @@ const discoverData = [
     rating: 4.5,
     duration: 3,
   },
-];
+] as Array<discoverDataType>;
 
 export default discoverData;
