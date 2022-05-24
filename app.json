@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Tarvel App UI",
+    "icon": "./assets/images/icon.png",
+    "version": "0.0.1",
+    "slug": "travelappui",
+    "ios": {
+      "bundleIdentifier": "com.kast96.travelappui",
+      "buildNumber": "0.0.1"
+    },
+    "android": {
+      "package": "com.kast96.travelappui",
+      "versionCode": 1
+    },
+    "orientation": "portrait",
+    "description": ""
+  }
+}
